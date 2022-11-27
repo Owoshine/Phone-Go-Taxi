@@ -1,0 +1,522 @@
+@media (max-width: 600px) {
+    
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin: 10px auto;
+    padding: 20px;
+    margin-top: -18px;
+    padding-left: 695px;
+    height: 40px;
+    position: fixed;
+    width: 30%;
+    z-index: 3;
+}
+header button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border: 1px solid #00b4d8;
+    border-radius: 100px;
+    margin: 0 0.9%;
+    box-shadow: 0px 3px 12px 0px #00b4d8;
+    text-rendering: auto;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    position: fixed;
+}
+#advert1 {
+    background-image: url(../asset.jpg), url(../asset1.jpg), url(../asset2.jpg);
+    background-size: cover;
+    height: 44vh;
+    background-repeat: no-repeat;
+    margin-top: -2px;
+    margin-left: -40px;
+}
+@keyframes slider {
+    0% {
+        background-image: url(../asset.jpg);
+    }
+    33% {
+        background-image: url(../asset1.jpg);
+    }
+    66% {
+        background-image: url(../asset2.jpg);
+    }
+}
+ 
+
+
+ #advert1 {
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+ }
+ #advert2 {
+    background-color: aliceblue;
+    height: 135vh;
+    display: grid
+ }
+ #gotaxi {
+    margin-top: -42px;
+ }
+ h2 {
+    margin-left: 80px;
+ }
+ #bar {
+    background-color: #023e8a;
+    height: 6px;
+    width: 50px;
+    margin-left: 80px;
+ }
+    #item1 img {
+        width: 85%;
+        height: 50vhpx;
+        margin-left: 5px;
+        padding: 50px;
+        margin-top: 5px;
+}
+#advert2 p {
+    width: 65%;
+    line-height: 1.5em;
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+#profile {
+    height: 45vh;
+    background-color: #e3f2fd;;
+}
+#profile img{
+    height: 60px;
+    width: 70px;
+    border-bottom-left-radius: 21%;
+    border-bottom-right-radius: 21%;
+    margin-left: 200px;
+    margin-top: 45px;
+    
+}
+#join {
+    margin-left: 159px;
+    color: #00b4d8;
+    font-weight: bolder;
+    margin-bottom: 5px;
+} 
+#register {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+#profile button {
+    background-color: #00b4d8;
+    padding: 15px 25px 15px 25px;
+    margin: 0 0.5%;
+    border: 1px solid #00b4d8;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 0px 3px 0px 0px #1565c0;
+    font-size: 0.8em;
+    margin-left: 165px;
+    margin-top: -30px;
+}
+#deliveryheader {
+    color: #00b4d8;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+}
+.container {
+    /* border: thick solid red; */
+    height: 315vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 45px;
+    margin-left: 45px;
+    margin-top: 10px;
+    z-index: 1;
+}
+#item {
+    /* border: thick solid yellow; */
+    width: 75%;
+    margin: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #dee2e6;
+    z-index: 1;
+    
+    
+}
+#item img {
+    width: 100%;
+    z-index: 1;
+}
+#item p {
+    color: #60bd03;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 80px;
+    z-index: 1;
+    
+}
+hr {
+    width: 90%;
+    border-bottom: 0.1px  #dee2e6;
+    margin: 10px auto;
+    z-index: 1;
+    
+}
+#item a {
+    text-decoration: none;
+    line-height: 1.5em;
+    color: black;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 10px;
+    z-index: 1;
+}
+.container2 {
+    /* border: thick solid red; */
+    height: 315vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    padding: 45px;
+    margin-left: 45px;
+    margin-top: -110px;
+    z-index: 1;
+    
+}
+#banner {
+    background-image: url(../banner.png);
+    background-repeat: repeat-x;
+    background-size: 30% 150px;
+    background-position:  right 50%;
+    background-color: #fefeff;
+    position: absolute;
+    height: 220px;
+    width: 90%;
+    margin-left: -142px;
+    margin-top: 1520px;
+    padding-left: 100px;
+    z-index: 0;
+}
+.container2 #item2 {
+    width: 75%;
+    margin: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #dee2e6;
+    margin-top: -30px;
+    margin-bottom: 80px; 
+    position: relative;
+    z-index: 2;
+    height: 85vh;
+}
+#item2 img {
+  width: 100%;  
+  z-index: 1;
+}
+#item2 p {
+    color: #60bd03;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    margin-top: 100px;
+    z-index: 1;
+    position: ; 
+    background-color: #fefeff;
+    z-index: 1;
+}
+#item2 a {
+    text-decoration: none;
+    line-height: 1.5em;
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    z-index: 1;
+    /* position: absolute; */
+    background-color: #fefeff;
+    padding-bottom: 27px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 0; 
+    
+}
+
+#blue {
+    background-color: #213ebf;
+    height: 220px;
+    /* bottom: 0px; */
+    width: 90%;
+    /* position:absolute; */
+    margin-top: 1710px;
+    margin-left: -90px;
+    padding-left: 50px;
+    z-index: 0;
+
+}
+.parent {
+    background-image: url(../back-use.jpg);
+    margin-top: -80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-left: -100px;
+    justify-content: space-around;
+}
+#t h1 {
+    color: white;
+    font-size: 37px;
+    text-align: center;
+    margin-left: -65px;
+    margin-top: -45px;
+}
+
+#t {
+   margin-top: 100px; 
+   text-align: center;
+   margin-left: 80px;
+}
+#t h4 {
+    color:#00b4d8; 
+    font-size: 22px;
+    text-align: left;
+    margin-top: 30px;
+}
+#t a {
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#bg1 {
+    /* border: thick solid red; */
+    background-image: url(../hand.png);
+    width: 100%;
+    height: 100vh;
+    margin-top: 55px;
+}
+#bg2 {
+    /* border: solid thick yellow; */
+    background-image: url(../view3.jpg), url(../view2.jpg);
+    width: 57%;
+    height: 550vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 93px;
+    margin-top: 63px;
+    padding-bottom: 90px;
+}
+@keyframes slide {
+    0% {
+        background-image: url(../view2.jpg);
+    }
+    100% {
+        background-image: url(../view3.jpg);
+    }
+}
+
+#bg2 {
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes easefirst {
+    0% { background-color: white;
+        
+    }
+    66% {
+        
+    }
+    100% {
+        
+    }
+}
+#t h4 {
+    animation-name: easefirst;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+}
+@keyframes easesecond {
+    0% {
+        
+    }
+    66% {
+        background-color: white;
+    }
+    100% {
+        
+    }
+}
+#t h4 :nth-of-type(2) {
+    animation-name: easesecond;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+@keyframes easethird {
+    0% {
+        
+    }
+    66% {
+        
+    }
+    100% { background-color: white;
+        
+    }
+}
+#t h4 :nth-of-type(3) {
+    animation-name: easethird;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#illu {
+    /* border: thick solid red; */
+    height: 46vh;
+    background-image: url(../ilustrasion-scene.png);
+    position: relative;
+}
+#taxi {
+    /* border: thick solid yellow; */
+    background-color: rgb(25, 23, 23);
+    height: 80vh;
+    margin-top: 280px;
+    margin-bottom: -20px auto;
+    padding-top: 10px;
+    
+}
+#taxi img {
+    height: 15vh;
+    width: 55%;
+    margin-top: 19px;
+    margin-left: 100px;
+}
+#service {
+    color: grey;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 38px;
+}
+#service a {
+    color: grey;
+    text-decoration: none;
+}
+#service ul li:nth-of-type(1) {
+    color: white;
+}
+button {
+    background-color:rgb(25, 23, 23);;
+    padding: 15px 40px 15px 40px;
+    margin: 0 0.5%;
+    border: 1px solid #00b4d8;
+    color: #00b4d8;
+    border-radius: 100px;
+    /* box-shadow: 0px 3px 12px 0px #00b4d8; */
+    text-decoration: none;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.card:hover {
+    background-color: #00b4d8;
+    color: white;
+}
+.animationContainer {
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    background-image: url(../ilustrasion-scene.png);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.movingVehicle{
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+}
+#firstVehicle{
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+    background-image: url(../ilustrasion-vehicle.png);
+    animation: move-image 10s linear 0s infinite normal;
+}
+#secondVehicle{
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+    background-image: url(../ilustrasion-vehicle-02.png);
+    animation: move-second-image 20s linear 0s infinite normal;
+}
+#reverseVehicle{
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+    background-position: 650px 0;
+    background-image: url(../ilustrasi-vehicle-reverse.png);
+    animation: move-reverse 10s linear 0s infinite normal;
+} 
+
+@keyframes move-image {
+    from{background-position: -650px 0;}
+    to{background-position: 650px 0;}
+}
+@keyframes move-second-image {
+    from{background-position: -650px 0;}
+    to{background-position: 650px 0;}
+}
+@keyframes move-reverse {
+    from{background-position: 650px 0;}
+    to{background-position: -650px 0;}
+    /* to{transform: translateX(-100%);} */
+}
+ .line{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 1px;
+    background-color: black;
+    margin-top: -70px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+}
+.socials {
+
+
+}
+.f img {
+margin-top: -340px;
+border-radius: 50%;
+position: absolute;
+margin-left: 150px;
+}
+.t img{
+margin: 20px;
+border-radius: 50%;
+margin-top: -340px;
+position: absolute;
+margin-left: 200px;
+}
+.l img {
+    border-radius: 50%;
+    background-color: black;
+    margin-top: -340px;
+    position: absolute;
+    margin-left: 250px;
+}
+
